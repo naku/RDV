@@ -11,7 +11,7 @@ $(document).ready(function() {
 		return;
 	}
 
-	var currentArticles = _($('input[name="thing_id"'))
+	var currentArticles = _($('input[name="thing_id"]'))
 		.map(function(e) { return $(e).val() })
 		.filter(function(e) { return e.slice(0, 3) == 't1_'} );
 
